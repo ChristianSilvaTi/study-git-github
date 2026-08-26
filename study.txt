@@ -1,0 +1,73 @@
+CONFIGURAR NOME E EMAIL LOCALMENTE / CONFIGURE NAME AND EMAIL LOCALLY
+
+git config --global user.name "username example"
+git config --global user.email "email@example"
+
+
+APAGAR NOME ANTERIOR CONFIGURADO NO GIT / REMOVE PREVIOUSLY CONFIGURED GIT USERNAME
+
+git config --global --unset user.name
+
+
+INICIALIZAR PROJETO / INITIALIZE A PROJECT
+
+git init
+
+
+MOSTRAR O STATUS DO PROJETO / SHOW PROJECT STATUS
+
+git status
+
+
+ADICIONAR ARQUIVOS AO REPOSITÓRIO / ADD FILES TO THE REPOSITORY
+
+git add "file-name"
+git add .
+
+
+SALVAR AS ALTERAÇÕES / SAVE CHANGES
+
+git commit -m "message here"
+
+
+MOSTRAR BRANCH / SHOW BRANCHES
+
+git branch
+
+
+ADICIONAR ORIGEM DO REPOSITÓRIO LOCAL AO GITHUB / ADD REMOTE REPOSITORY ORIGIN
+
+git remote add origin [link]
+
+
+ALTERAR O NOME DA BRANCH / RENAME THE BRANCH
+
+git branch -M "branch-name"
+
+
+ENVIAR ALTERAÇÕES PARA A BRANCH SELECIONADA / PUSH CHANGES TO THE SELECTED BRANCH
+
+git push -u origin main
+
+
+TROCAR DE BRANCH / SWITCH BRANCHES
+
+git checkout "branch-name"
+
+OR
+
+git switch "branch-name"
+
+
+UNIFICAR BRANCHES / MERGE BRANCHES
+
+git merge "branch-name"
+
+
+HISTÓRICO DE COMMITS / COMMIT HISTORY
+
+git log
+
+
+MOSTRAR TODOS OS COMMITS / SHOW ALL COMMITS
+git log --all
